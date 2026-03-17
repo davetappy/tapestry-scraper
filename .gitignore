@@ -1,0 +1,22 @@
+# Downloaded assets and test data (contains personal photos)
+test/
+
+# Debug files that may contain session data
+debug_observations_page.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials / env
+.env
+*.env
