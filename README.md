@@ -67,14 +67,13 @@ python tapestry_scraper.py -e you@example.com -p yourpassword -o ./export --chil
 
 ```
 export/
-  2024-06/
-    child_name/
-      2024-06-12_sports_day/
-        2024-06-12_001.jpg
-        2024-06-12_002.jpg
-        2024-06-12_003.mp4
-      2024-06-20_painting/
-        2024-06-20_001.jpg
+  child_name/
+    2024-06-12_sports_day/
+      2024-06-12_001.jpg
+      2024-06-12_002.jpg
+      2024-06-12_003.mp4
+    2024-06-20_painting/
+      2024-06-20_001.jpg
 ```
 
 ## Metadata written
