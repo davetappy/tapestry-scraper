@@ -68,7 +68,7 @@ python tapestry_scraper.py -e you@example.com -p yourpassword -o ./export --chil
 ```
 export/
   2024-06/
-    sonny/
+    child_name/
       2024-06-12_sports_day/
         2024-06-12_001.jpg
         2024-06-12_002.jpg
