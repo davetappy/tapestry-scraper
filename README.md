@@ -2,6 +2,8 @@
 
 A command-line tool that downloads all observations and media assets from a [Tapestry Journal](https://tapestryjournal.com) account, organises them into a tidy folder structure, and embeds metadata into each file so dates and descriptions are preserved.
 
+This project was built entirely with [Claude Code](https://claude.ai/claude-code) by Anthropic.
+
 ## What it does
 
 - Logs in to your Tapestry account and fetches all observations via the internal API
