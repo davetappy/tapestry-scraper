@@ -8,7 +8,7 @@ This project was built entirely with [Claude Code](https://claude.ai/claude-code
 
 - Logs in to your Tapestry account and fetches all observations via the internal API
 - Downloads photos, videos and documents attached to each observation
-- Organises files into folders by date and child, e.g. `export/2024-06/sonny/2024-06-12_sports_day/`
+- Organises files into folders by date and child, e.g. `output_dir/child_name/YYYY-MM-DD_observation_title/`
 - Renames files sequentially: `2024-06-12_001.jpg`, `2024-06-12_002.mp4`, etc.
 - Embeds the observation date into file timestamps (filesystem creation date, EXIF, and MP4 movie header)
 - Embeds the title, description, child name and keywords as EXIF, IPTC and XMP metadata
@@ -66,7 +66,7 @@ python tapestry_scraper.py -e you@example.com -p yourpassword -o ./export --chil
 ## Output structure
 
 ```
-export/
+output_dir/
   child_name/
     YYYY-MM-DD_observation_title/
       YYYY-MM-DD_001.jpg
